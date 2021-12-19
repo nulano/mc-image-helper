@@ -134,7 +134,7 @@ compileTestJava {
 
 githubReleaser {
     project {
-        homepage = 'https://github.com/itzg/mc-image-helper'
+        homepage = 'https://github.com/nulano/mc-image-helper'
         license = 'MIT'
     }
 }
