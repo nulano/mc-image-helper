@@ -35,8 +35,8 @@ release {
 
 jreleaser {
     project {
-        website = 'https://github.com/itzg/mc-image-helper'
-        docsUrl = 'https://github.com/itzg/mc-image-helper'
+        website = 'https://github.com/nulano/mc-image-helper'
+        docsUrl = 'https://github.com/nulano/mc-image-helper'
         authors = ['Geoff Bourne']
         tags = ['cli']
         license = 'MIT'
@@ -55,7 +55,7 @@ jreleaser {
     release {
         github {
             //noinspection GroovyAccessibility
-            owner = 'itzg'
+            owner = 'nulano'
             branch = 'master'
             prerelease {
                 pattern = '.*-SNAPSHOT'
